@@ -1,0 +1,12 @@
+Package: FixedWidthReader
+Type: Package
+Title: Efficient fixed-width-file reader
+Version: 0.1.0
+Authors@R: person("Colleen", "Driscoll", email = "cdriscoll@g.harvard.edu",
+                  role = c("aut", "cre", "cph"))
+Maintainer: Colleen Driscoll <cdriscoll@g.harvard.edu>
+Description: Efficiently reads in a fixed-width file (.txt, .dat, etc.) 
+    as a DataFrame. Optimal for large data sources (>100MB).
+License: MIT
+Encoding: UTF-8
+LazyData: true
